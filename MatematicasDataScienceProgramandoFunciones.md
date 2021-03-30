@@ -11,10 +11,14 @@ import numpy as np                # librería para manejo de vectores y utilidad
 
 ### Función lineal
 
-Tiene la forma de  $$f(x)=mx + b$$
+Tiene la forma de  <!-- $$f(x)=mx + b$$ --> 
+
+<div align="center"><img style="background: white;" src="svg\IXGTSoJ0W6.svg"></div>
 
 donde m y b  en R. 
-m puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
+m puede ser calculada por: <!-- $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$ --> 
+
+<div align="center"><img style="background: white;" src="svg\vU8mvrK9ir.svg"></div>
 
 y b es el punto de corte con el eje y. Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\67UZ94I7jR.svg">
 
