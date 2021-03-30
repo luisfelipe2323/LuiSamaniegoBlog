@@ -142,7 +142,7 @@ Por lo que x=256. Calculando el logaritmo base 2 de x es:
 <!-- $log_{2}(256) = 8$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\reQ2SVvYMt.svg">
 
 ```python
-# utilidad en los decibelios
+# utilidad en los decibeles
 
 def f(x):
   return np.log10(x)
