@@ -155,7 +155,7 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-![png](opng\output_13_1.png)
+![png](png\output_13_1.png)
     
 # Función seccionada
 Son funciones que tienen diferentes valores definidos por un intervalo. Por ejemplo la función escalón de Heaviside: 
