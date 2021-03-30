@@ -11,13 +11,13 @@ import numpy as np                # librería para manejo de vectores y utilidad
 
 ### Función lineal
 
-Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\dmqfsvBncI.svg">
+Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dmqfsvBncI.svg">
 
 
 donde m y b  en R. 
-m puede ser calculada por: <!-- $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$ --> <img style="background: white;" src="svg\vU8mvrK9ir.svg">
+m puede ser calculada por: <!-- $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\q6WUQ87ocQ.svg">
 
-y b es el punto de corte con el eje y. Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\67UZ94I7jR.svg">
+y b es el punto de corte con el eje y. Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\67UZ94I7jR.svg">
 
 ```python
 N = 100 # número de puntos
@@ -44,7 +44,7 @@ ax.axvline(x=0, color='r')
 
 Tiene la forma de <!-- $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$ --> 
 
-<div align="center"><img style="background: white;" src="svg\z02EU4M1UQ.svg"></div>
+<div align="center"><img style="background: #dedede;" src="svg\z02EU4M1UQ.svg"></div>
 
 a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde $a \in R$. 
 
