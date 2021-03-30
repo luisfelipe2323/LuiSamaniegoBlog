@@ -6,7 +6,7 @@ import numpy as np                # librería para manejo de vectores y utilidad
 ```
 ## Función lineal
 
-Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dmqfsvBncI.svg"> donde <!-- $m$ y $b$  $\in R$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\yYuo36Ok2l.svg">. 
+Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dmqfsvBncI.svg"> donde  m y b  <!-- $\in R$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\5kBJQt8JAH.svg">. 
 m puede ser calculada por: <!-- $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\q6WUQ87ocQ.svg">
 
 y b es el punto de corte con el eje y. Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\67UZ94I7jR.svg">
@@ -35,7 +35,7 @@ ax.axvline(x=0, color='r')
 
 Tiene la forma de <!-- $P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\oRi2e4D9Dp.svg">
 
-a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde a en R. 
+a una función que tiene esta forma se le llama polinomio de grado n. A los elementos a los llamaremoc coeficientes donde a <!-- $\in R$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\Djyt8uAUZS.svg">. 
 
 **Por ejemplo:**
 
@@ -94,7 +94,7 @@ ax.axvline(x=0, color='r')
 ![png](png\output_9_1.png)
     
 ## Función exponencial
-Tienen la forma de <!-- $f(x)=a^x$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\GsRBPAno22.svg"> donde la base $a$ es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
+Tienen la forma de <!-- $f(x)=a^x$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\GsRBPAno22.svg"> donde la base a es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
 
 <!-- $f(x)=e^x$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dAar4iI3Hg.svg">
 
@@ -126,7 +126,7 @@ donde:
 
 *   b es la base.
 *   n es el exponente al que está elevado la base.
-*   x es el resultado de elevar la base $b$ al exponente n
+*   x es el resultado de elevar la base b al exponente n
 
 **Ejemplo:**
 
