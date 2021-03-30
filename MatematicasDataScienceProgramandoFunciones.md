@@ -1,18 +1,12 @@
+# Funciones algebraicas
 ### Librerías
-
-
-
 ```python
 import matplotlib.pyplot as plt   # librería para graficar
 import numpy as np                # librería para manejo de vectores y utilidades matemáticas
 ```
-
-# Funciones algebraicas
-
 ### Función lineal
 
 Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dmqfsvBncI.svg">
-
 
 donde m y b  en R. 
 m puede ser calculada por: <!-- $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\q6WUQ87ocQ.svg">
@@ -37,16 +31,13 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-
-![png](output_4_1.png)
+![png](png\output_4_1.png)
     
 ### Función Polinómicas
 
-Tiene la forma de <!-- $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$ --> 
+Tiene la forma de <!-- $P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\oRi2e4D9Dp.svg">
 
-<div align="center"><img style="background: #dedede;" src="svg\z02EU4M1UQ.svg"></div>
-
-a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde $a \in R$. 
+a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde a en R. 
 
 **Por ejemplo:**
 
@@ -98,7 +89,7 @@ ax.axvline(x=0, color='r')
 
 
     
-![png](output_6_1.png)
+![png](png\output_6_1.png)
     
 
 
@@ -137,7 +128,7 @@ ax.axvline(x=0, color='r')
 
 
     
-![png](output_9_1.png)
+![png](png\output_9_1.png)
     
 
 
@@ -176,7 +167,7 @@ ax.axvline(x=0, color='r')
 
 
     
-![png](output_11_1.png)
+![png](opng\utput_11_1.png)
     
 
 
@@ -235,7 +226,7 @@ ax.axvline(x=0, color='r')
 
 
     
-![png](output_13_1.png)
+![png](opng\utput_13_1.png)
     
 
 
@@ -274,6 +265,6 @@ ax.grid()
 
 
     
-![png](output_15_0.png)
+![png](opng\utput_15_0.png)
     
 
