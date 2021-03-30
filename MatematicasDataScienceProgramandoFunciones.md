@@ -11,9 +11,8 @@ import numpy as np                # librería para manejo de vectores y utilidad
 
 ### Función lineal
 
-Tiene la forma de  <!-- $$f(x)=mx + b$$ --> 
+Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\dmqfsvBncI.svg">
 
-<div align="center"><img style="background: white;" src="svg\IXGTSoJ0W6.svg"></div>
 
 donde m y b  en R. 
 m puede ser calculada por: <!-- $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$ --> <img style="background: white;" src="svg\vU8mvrK9ir.svg">
