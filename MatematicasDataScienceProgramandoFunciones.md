@@ -35,42 +35,32 @@ ax.axvline(x=0, color='r')
     
 ### Función Polinómicas
 
-Tiene la forma de <!-- $P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\oRi2e4D9Dp.svg">
+Tiene la forma de <!-- $P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\oRi2e4D9Dp.svg">
 
 a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde a en R. 
 
 **Por ejemplo:**
 
-$$P(x)= 2x^{7} - x^{4} + 3x^{2} + 4$$
+<!-- $P(x)= 2x^{7} - x^{4} + 3x^{2} + 4$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\cDTePijMIB.svg">
 
 que es un polinómio de grado 7.
-
 
 ### Funciones potencia
 
 Hay unas funciones que son un caso particular de las funciones polinómicas que son las funciones potencia, las cuales tienen la forma:
 
-
-$$f(x)= x^{a}, a \in R$$ 
-
+<!-- $f(x)= x^{a}, a \in R$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\c48Cx4kz25.svg">
 
 **Por ejemplo:**
+<!-- $f(x)= x^{2}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\rOynbw1zt8.svg">
 
-$$f(x)= x^{2}$$
-
-El dominio de $f(x)=x^{2}$ es $Dom_{f} = (-\infty, \infty)$. Su imagen es $Im_{f} = [0, \infty)$
-
-
-
-
-
+El dominio de <!-- $f(x)=x^{2}$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\8fGw2thsuG.svg"> es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\aT8tuFhFRR.svg">. Su imagen es <!-- $Im_{f} = [0, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\sY72d2MynL.svg">
 
 ```python
 def f(x):
   return 2*x**7 - x**4 + 3*x**2 + 4
 
 x = np.linspace(-100.0, 100.0, num=N)
-
 y = f(x)
 
 fig, ax = plt.subplots()
@@ -79,37 +69,22 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-
-
-
-
-    <matplotlib.lines.Line2D at 0x7fc529f34d30>
-
-
-
-
-    
+   
 ![png](png\output_6_1.png)
     
-
-
 # Funciones trascendentes
-
 Son funciones que no pueden ser expresadas con polinomios. 
 
 ### Funciones trigonométricas
-
-Algunos ejemplos son las funciones $cos(x)$, $sen(x)$ y $tan(x)$
+Algunos ejemplos son las funciones <!-- $cos(x)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\RjjEPsmHng.svg">, <!-- $sen(x)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\LzAnK84Gxn.svg"> y <!-- $tan(x)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\iR1opGhUDS.svg">
 
 
 ```python
 from math import pi
-
 def f(x):
   return np.sin(x)
 
 x = np.linspace(-2*pi, 2*pi, N)
-
 y = f(x)
 
 fig, ax = plt.subplots()
@@ -117,34 +92,19 @@ ax.plot(x, y)
 ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
-```
-
-
-
-
-    <matplotlib.lines.Line2D at 0x7fc529a5b7b8>
-
-
-
-
-    
+```  
 ![png](png\output_9_1.png)
     
-
-
 ### Función exponencial
+Tienen la forma de <!-- $f(x)=a^x$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\GsRBPAno22.svg"> donde la base $a$ es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
 
-Tienen la forma de $$f(x)=a^x$$ donde la base $a$ es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
-
-$$f(x)=e^x$$
-
+<!-- $f(x)=e^x$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dAar4iI3Hg.svg">
 
 ```python
 def f(x):
   return np.e**x
 
 x = np.linspace(-1, 1, num=100000)
-
 y = f(x)
 
 delta = 0.01
@@ -157,48 +117,28 @@ ax.set_xlim(0 - delta, 0 + delta)
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-
-
-
-
-    <matplotlib.lines.Line2D at 0x7fc529798be0>
-
-
-
-
-    
 ![png](opng\utput_11_1.png)
     
-
-
 ### Función logaritmo
-
 El logaritmo está definido por la **realación**:
 
-$$log_{b}(x) = n \Longleftrightarrow x=b^n$$ 
+<!-- $log_{b}(x) = n \Longleftrightarrow x=b^n$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\hfyExV0xNA.svg">
 
 donde: 
 
-
-
-*   $b$ es la base.
-*   $n$ es el exponente al que está elevado la base.
-*   $x$ es el resultado de elevar la base $b$ al exponente $n$
+*   b es la base.
+*   n es el exponente al que está elevado la base.
+*   x es el resultado de elevar la base $b$ al exponente n
 
 **Ejemplo:**
 
 Teniendo b=2 y n=8, entonces:
 
-$$2^8=256$$
+<!-- $2^8=256$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\FZI4Y8QAJw.svg">
 
-Por lo que $x=256$. Calculando el logaritmo base 2 de $x$ es:
+Por lo que x=256. Calculando el logaritmo base 2 de x es:
 
-$$log_{2}(256) = 8$$
-
-
-
-
-
+<!-- $log_{2}(256) = 8$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\reQ2SVvYMt.svg">
 
 ```python
 # utilidad en los decibelios
@@ -207,7 +147,6 @@ def f(x):
   return np.log10(x)
 
 x = np.linspace(0.01, 1000, num=N)
-
 y = f(x)
 
 fig, ax = plt.subplots()
@@ -216,30 +155,17 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-
-
-
-
-    <matplotlib.lines.Line2D at 0x7fc5298435c0>
-
-
-
-
-    
 ![png](opng\utput_13_1.png)
     
-
-
 # Función seccionada
-
 Son funciones que tienen diferentes valores definidos por un intervalo. Por ejemplo la función escalón de Heaviside: 
 
-$$H(x) = 
+<!-- $H(x) = 
      \begin{cases}
         0, &\quad \text{para, } x < 0 \\
         1,  &\quad\text{para. } x \ge 0 \\
      \end{cases}
-$$
+$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\6OPchF70oz.svg">
 
 
 ```python
@@ -253,18 +179,10 @@ def H(X):
 # Datos para graficación
 
 N = 1000
-
 X = np.linspace(-1,1, num=N)
-
 y = H(X)
-
 fig, ax = plt.subplots()
 ax.plot(X, y)
 ax.grid()
 ```
-
-
-    
-![png](opng\utput_15_0.png)
-    
-
+![png](png\utput_15_0.png)
