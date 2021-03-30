@@ -11,19 +11,12 @@ import numpy as np                # librería para manejo de vectores y utilidad
 
 ### Función lineal
 
-Tiene la forma de <!-- $$f(x)=mx + b$$ --> 
+Tiene la forma de  $$f(x)=mx + b$$
 
-<div align="center"><img style="background: white;" src="svg\9fg2FOYvAS.svg"></div> donde m y b  en R. 
-
-m puede ser calculada por: <!-- $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$ --> 
-
-<div align="center"><img style="background: white;" src="svg\p52b8nfhtR.svg"></div>
+donde m y b  en R. 
+m puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
 
 y b es el punto de corte con el eje y. Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: white;" src="svg\67UZ94I7jR.svg">
-
-
-
-
 
 ```python
 N = 100 # número de puntos
@@ -31,15 +24,11 @@ N = 100 # número de puntos
 def f(m,x,b):
   return m*x + b
 
-
 m = (7-6)/(3-2)
-
 x = np.linspace(-10.0, 10.0, num=N)
-
 b = 10
 
 y = f(m,x,b)
-
 
 fig, ax = plt.subplots()
 ax.plot(x, y)
@@ -48,22 +37,13 @@ ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
 
-
-
-
-    <matplotlib.lines.Line2D at 0x7f3f74645e80>
-
-
-
-
-    
 ![png](output_4_1.png)
     
-
-
 ### Función Polinómicas
 
-Tiene la forma de $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$
+Tiene la forma de <!-- $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$ --> 
+
+<div align="center"><img style="background: white;" src="svg\z02EU4M1UQ.svg"></div>
 
 a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremoc coeficientes donde $a \in R$. 
 
