@@ -1,12 +1,23 @@
 # Data Science
+La ciencia de datos es un campo interdisciplinario que involucra métodos científicos, procesos y sistemas para extraer conocimiento o un mejor entendimiento de datos en sus diferentes formas, ya sea estructurados o no estructurados,1​ lo cual es una continuación de algunos campos de análisis de datos como la estadística, la minería de datos, el aprendizaje automático, y la analítica predictiva.1
+
+También se define La ciencia de datos como "un concepto para unificar estadísticas, análisis de datos, aprendizaje automático, y sus métodos relacionados, a efectos de comprender y analizar los fenómenos reales", empleando técnicas y teorías extraídas de muchos campos dentro del contexto de las matemáticas, la estadística, la ciencia de la información, y la informática. 
 
 ![jpg](png\DS1.jpg)
 
-## Librerías
-```python
-import matplotlib.pyplot as plt   # librería para graficar
-import numpy as np                # librería para manejo de vectores y utilidades matemáticas
-```
+## Cuatro pilares  matemáticos del machine learning
+
+![png](png\DS2.png)
+
+## Funciones en machine learning 
+
+ El aprendizaje automatizado optimizan una función objetiva con respecto a un conjunto de parámetros de modelo deseados que controlan qué tan bien un modelo explica los datos: encontrar buenos parámetros puede enunciarse como un problema de optimización.
+
+ Los ejemplos incluyen: regresión de oreja lineal, donde observamos problemas de ajuste de curvas y optimizamos los parámetros de peso lineal para maximizar la probabilidad; codificadores automáticos de redes neuronales para reducción de dimensionalidad y compresión de datos, donde los parámetros son los pesos y sesgos de cada capa, y donde minimizamos un error de reconstrucción mediante la aplicación repetida de la regla de la cadena; y  modelos de mezcla gaussiana para modelar distribuciones de datos, donde optimizamos la ubicación y los parámetros de forma de cada componente de la mezcla para maximizar la probabilidad del modelo.
+
+ El centro de estos ejemplos se encuentra el concepto de función. Una función es una cantidad que relaciona dos cantidades entre sí.
+
+
 # Funciones algebraicas
 ## Función lineal
 
@@ -19,6 +30,9 @@ y b es el punto de corte con el eje y.
 Su dominio es <!-- $Dom_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\6hlCwvsNSB.svg">. Su imagen es <!-- $Im_{f} = (-\infty, \infty)$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\67UZ94I7jR.svg">
 
 ```python
+import matplotlib.pyplot as plt   # librería para graficar
+import numpy as np # librería para manejo de vectores y utilidades matemáticas
+
 N = 100 # número de puntos
 
 def f(m,x,b):
@@ -191,3 +205,9 @@ ax.plot(X, y)
 ax.grid()
 ```
 ![png](png\output_15_0.png)
+
+# Referencias
+
+ 1. https://es.wikipedia.org/wiki/Ciencia_de_datos
+ 2. https://www.cursosgis.com/cuales-son-las-diferencias-entre-data-science-machine-learning-deep-learning-y-artificial-inteligence/
+ 3. Marc Peter DeisenrothA, Aldo FaisalCheng Soon Ong, "MATHEMATICSFORMACHINE LEARNING", Published by Cambridge University Press, 2020 M. P. Deisenroth.
