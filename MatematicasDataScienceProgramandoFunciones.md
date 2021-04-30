@@ -2,8 +2,6 @@
 
 ![jpg](png\DS1.jpg)
 
-
-
 ## Librerías
 ```python
 import matplotlib.pyplot as plt   # librería para graficar
