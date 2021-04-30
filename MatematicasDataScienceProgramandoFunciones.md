@@ -1,6 +1,6 @@
 # Data Science
 
-![jpg](png\DS1.jpg
+![jpg](png\DS1.jpg)
 
 
 
@@ -38,7 +38,7 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-![png](png\output_4_1.png
+![png](png\output_4_1.png)
     
 ## Función Polinómicas
 
