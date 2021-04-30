@@ -1,9 +1,15 @@
-# Funciones algebraicas
+# Data Science
+
+![jpg](png\DS1.jpg
+
+
+
 ## Librerías
 ```python
 import matplotlib.pyplot as plt   # librería para graficar
 import numpy as np                # librería para manejo de vectores y utilidades matemáticas
 ```
+# Funciones algebraicas
 ## Función lineal
 
 Tiene la forma de  <!-- $f(x)=mx + b$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\dmqfsvBncI.svg"> donde  m y b  <!-- $\in R$ --> <img style="transform: translateY(0.1em); background: #dedede;" src="svg\5kBJQt8JAH.svg">.
@@ -32,7 +38,7 @@ ax.grid()
 ax.axhline(y=0, color='r')
 ax.axvline(x=0, color='r')
 ```
-![png](png\output_4_1.png)
+![png](png\output_4_1.png
     
 ## Función Polinómicas
 
