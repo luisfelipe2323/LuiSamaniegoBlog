@@ -197,7 +197,7 @@ ax.set_ylabel('sepal.width')
 
 
     
-![png](output_8_1.png)
+![png](png/output_8_1.png)
     
 
 
@@ -230,7 +230,7 @@ ax.set_ylabel('sepal.width')
 
 
     
-![png](output_10_1.png)
+![png](png/output_10_1.png)
     
 
 
@@ -268,7 +268,7 @@ ax.legend()
 
 
     
-![png](output_12_1.png)
+![png](png/output_12_1.png)
     
 
 
@@ -300,7 +300,7 @@ ax.set_ylabel('Frequency')
 
 
     
-![png](output_14_1.png)
+![png](png/output_14_1.png)
     
 
 
@@ -339,7 +339,7 @@ ax.set_ylabel('Frequency')
 
 
     
-![png](output_16_1.png)
+![png](png/output_16_1.png)
     
 
 
@@ -371,7 +371,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+![png](png/output_21_0.png)
     
 
 
@@ -388,7 +388,7 @@ plt.show()
 
 
     
-![png](output_23_0.png)
+![png](png/output_23_0.png)
     
 
 
@@ -405,7 +405,7 @@ plt.show()
 
 
     
-![png](output_25_0.png)
+![png](png/output_25_0.png)
     
 
 
@@ -422,7 +422,7 @@ plt.show()
 
 
     
-![png](output_27_0.png)
+![png](png/output_27_0.png)
     
 
 
@@ -439,7 +439,7 @@ plt.show()
 
 
     
-![png](output_29_0.png)
+![png](png/output_29_0.png)
     
 
 
@@ -451,7 +451,7 @@ plt.show()
 
 
     
-![png](output_30_0.png)
+![png](png/output_30_0.png)
     
 
 
@@ -470,7 +470,7 @@ plt.show()
 
 
     
-![png](output_33_0.png)
+![png](png/output_33_0.png)
     
 
 
@@ -482,7 +482,7 @@ plt.show()
 
 
     
-![png](output_34_0.png)
+![png](png/output_34_0.png)
     
 
 
@@ -494,7 +494,7 @@ plt.show()
 
 
     
-![png](output_35_0.png)
+![png](png/output_35_0.png)
     
 
 
@@ -512,7 +512,7 @@ plt.show()
 
 
     
-![png](output_36_1.png)
+![png](png/output_36_1.png)
     
 
 
@@ -524,7 +524,7 @@ plt.show()
 
 
     
-![png](output_37_0.png)
+![png](png/output_37_0.png)
     
 
 
@@ -542,7 +542,7 @@ plt.show()
 
 
     
-![png](output_38_1.png)
+![png](png/output_38_1.png)
     
 
 
@@ -563,7 +563,7 @@ plt.show()
 
 
     
-![png](output_40_1.png)
+![png](png/output_40_1.png)
     
 
 
@@ -601,7 +601,7 @@ plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
 
 
     
-![png](output_43_1.png)
+![png](png/output_43_1.png)
     
 
 
@@ -633,7 +633,7 @@ for i in range(len(corr.columns)):
 
 
     
-![png](output_44_0.png)
+![png](png/output_44_0.png)
     
 
 
@@ -651,7 +651,7 @@ sns.heatmap(iris.corr(), annot=True)
 
 
     
-![png](output_45_1.png)
+![png](png/output_45_1.png)
     
 
 
@@ -670,7 +670,7 @@ g = g.map(sns.kdeplot, 'sepal.length')
 
 
     
-![png](output_48_0.png)
+![png](png/output_48_0.png)
     
 
 
@@ -693,7 +693,7 @@ sns.pairplot(iris)
 
 
     
-![png](output_50_1.png)
+![png](png/output_50_1.png)
     
 
 
