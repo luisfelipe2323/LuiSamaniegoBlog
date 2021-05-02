@@ -42,8 +42,6 @@ wine_reviews.head()
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
-         display: block;
-       overflow-x: auto;
     }
 
     .dataframe tbody tr th {
@@ -53,6 +51,14 @@ wine_reviews.head()
     .dataframe thead th {
         text-align: right;
     }
+
+
+    media screen and (max-width: 320px) {
+     table {
+       display: block;
+       overflow-x: auto;
+     }
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
