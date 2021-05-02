@@ -42,6 +42,8 @@ wine_reviews.head()
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
+         display: block;
+       overflow-x: auto;
     }
 
     .dataframe tbody tr th {
